@@ -1,0 +1,36 @@
+.header-options {
+    display: flex;
+    justify-content: space-between;
+    width: 190px;
+}
+
+.icon-search {
+    background: url("../../img/master/icon-search-red.png");
+}
+
+.icon-search:hover {
+    background-position: left -32px;
+}
+
+.icon-sound {
+    background: url("../../img/master/sound-red.png");
+}
+
+.icon-sound:hover {
+    background-position: left -32px;
+}
+
+.icon-fullscreen {
+    background: url("../../img/master/fullscreen-red.png");
+}
+
+.icon-fullscreen:hover {
+    background-position: left -32px;
+}
+.header-options-icon {
+    display: inline-block;
+    width: 32px;
+    height: 32px;
+    background-size: cover;
+}
+
