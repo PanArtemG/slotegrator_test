@@ -1,18 +1,24 @@
 import React from 'react';
+import {Header, GamesLayout, Games, ProvidersMenu, MainPage, Footer} from "./components/";
+import {Provider} from "react-redux";
+import store from "./store";
+
 import './App.css';
-import {Header, GamesLayout, Games, ProvidersMenu} from "./components/";
 
 function App() {
-  return (
-    <div className="App">
-        <div className='container'>
-           <Header/>
-           <GamesLayout/>
-           <Games/>
-            <ProvidersMenu/>
-        </div>
-    </div>
-  );
+    return (
+        <Provider store={store}>
+            <div className="App">
+                <div className='container'>
+                    <Header/>
+                    <MainPage/>
+                    {/*<GamesLayout/>*/}
+                    {/*<Games/>*/}
+                    <Footer/>
+                </div>
+            </div>
+        </Provider>
+    );
 }
 
 export default App;

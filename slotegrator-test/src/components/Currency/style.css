@@ -1,0 +1,37 @@
+.credits {
+    position: absolute;
+    left: 195px;
+    bottom: 5px;
+    min-width: 185px;
+    z-index: 2;
+}
+
+.credits__header {
+    text-align: center;
+    color: #ededed;
+    /*font-family: "ArchivoBlack";*/
+    font-size: 19px;
+    line-height: 17px;
+    margin-bottom: 5px;
+}
+
+.credits__balance {
+    display: block;
+    color: #bce3ed;
+    /*font-family: "Azoft";*/
+    font-size: 17px;
+    font-weight: 700;
+    text-align: right;
+    margin-right: -15px;
+}
+
+.credits__points {
+    display: block;
+    /*font-family: "Azoft";*/
+    font-size: 38px;
+    font-weight: bold;
+    text-align: center;
+    text-shadow: #fff 1px 0 0px, #fff 0 1px 0px, #fff -1px 0 0px, #fff 0 -1px 0px;
+}
+
+

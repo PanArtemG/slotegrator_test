@@ -2,12 +2,12 @@ import React from 'react';
 
 import './style.css'
 
-export const GamesLayout = () => {
+export const GamesLayout = ({game}) => {
+    console.log(game)
   return (
-      <div className='games-layout'>
-          <h2>GamesLayout</h2>
-          <div className='games-wrapper'>
-              
+      <div class="games__nav__slide swiper-slide">
+          <div class="games__nav__list__item">
+              <img src={game.img} alt="Game"/>
           </div>
       </div>
   )

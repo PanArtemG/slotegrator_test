@@ -1,0 +1,74 @@
+.footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 80px;
+    width: 100%;
+    margin: auto;
+    position: relative;
+}
+
+.footer:before {
+    content: '';
+    position: absolute;
+    top: -3px;
+    left: 0;
+    right: 0;
+    height: 3px;
+    width: 100%;
+    background: url(../../img/master/footer_gradient.png) center;
+    background-size: 100%;
+}
+
+.footer__layout {
+
+}
+
+.footer__jackpot {
+    display: flex;
+    /*font-family: "ArchivoBlack";*/
+    font-size: 20px;
+    height: 35px;
+    justify-content: space-between;
+}
+
+.footer__jackpot--gold {
+    padding-left: 55px;
+    padding-right: 70px;
+    background: url(../../img/master/gold.png) left center no-repeat;
+}
+
+.footer__jackpot--silver {
+    padding-left: 55px;
+    padding-right: 70px;
+    background: url(../../img/master/silver.png) left center no-repeat;
+}
+
+.footer__jackpot--bronze {
+    padding-left: 55px;
+    background: url(../../img/master/bronze.png) left center no-repeat;
+}
+
+.button--sp1 {
+    width: 99px;
+    height: 51px;
+    border: solid 2px #d8c391;
+    background: linear-gradient(40deg, #35562c, #35562c 29%, #517f43 33%, #517f43 36%, #35562c 100%);
+    box-shadow: -5px -9px 29px 4px #35562c inset;
+    /*font-family: "ArchivoBlack", sans-serif;*/
+    font-size: 16px;
+    color: #fff;
+    display: flex;
+}
+
+.button--sp2 {
+    width: 99px;
+    height: 51px;
+    border: solid 2px #d8c391;
+    background: linear-gradient(40deg, #6a5746, #6a5746 29%, #937f44 33%, #937f44 36%, #6a5746 100%);
+    /*font-family: "ArchivoBlack";*/
+    font-size: 15px;
+    line-height: 16px;
+    transition: all 200ms ease-in;
+    display: flex;
+}

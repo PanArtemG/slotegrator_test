@@ -10,13 +10,24 @@
   color: aliceblue;
   font-family: Azoft, sans-serif;;
 }
+
+.button {
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  box-sizing: border-box;
+  transition: all 200ms ease-in;
+  border-radius: 7px;
+}
+
 .App {
   display: flex;
   flex-direction: column;
   align-items: center;
-  background: black;
   height: 100vh;
-  padding-top: 10px;
+  background: #000 url("./img/master/bg-bottom-red.png") center bottom 40px no-repeat;
+  background-size: 85%;
+  padding-top: 50px;
 }
 
 .container {
@@ -25,6 +36,5 @@
   align-items: center;
   justify-content: center;
   width: 1480px;
-  border: 1px solid red;
 }
 
