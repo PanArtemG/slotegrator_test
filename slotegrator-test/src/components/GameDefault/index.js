@@ -1,14 +1,13 @@
 import React from 'react';
+import {connect} from 'react-redux';
 
-export const GameDefault = ({game}) => {
+import {GameDefaultList} from './gameDefaultList'
+import './style.css'
+
+
+export const GameDefault = (props) => {
+    const {game_library} = props;
     return (
-        `<div className="games__slide swiper-slide">
-            <div className="games__list__item">
-                <div className="games__list__wrap">
-                    <a href="${game.link}"><img src="${game.img}" alt="Game"></a>
-                </div>
-                <span className="games__list__name">${game.name}</span>
-            </div>
-        </div>`
+        <GameDefaultList games={game_library}/>
     )
 };

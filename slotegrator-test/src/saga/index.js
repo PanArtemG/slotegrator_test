@@ -6,11 +6,11 @@ function* getLibraryGamesSaga() {
     while (true) {
         yield take (ACTION.GET_GAMES);
         const response = yield axios.get('/library-games/games');
-        console.log(response)
+        console.log(response);
 
         yield put ({
             type: ACTION.SET_GAMES,
-            payload: response.data.games
+            payload: response.data
         })
     }
 }

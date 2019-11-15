@@ -2,7 +2,9 @@ import {combineReducers} from 'redux';
 import * as ACTION from '../constants';
 
 const initialState = {
-    library_games: null
+    library_games: null,
+    search_result: null,
+    game_category: null
 };
 
 const libraryGamesReducer = (state = initialState, action) => {
@@ -12,6 +14,16 @@ const libraryGamesReducer = (state = initialState, action) => {
                 return {
                     ...state,
                     library_games: payload
+                };
+            case ACTION.SET_GAMES_SEARCH:
+                return {
+                    ...state,
+                    search_result: payload
+                };
+            case ACTION.SET_GAMES_CATEGORY:
+                return {
+                    ...state,
+                    game_category: payload
                 };
             default:
                 return {...state}

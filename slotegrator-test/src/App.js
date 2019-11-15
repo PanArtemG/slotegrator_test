@@ -1,5 +1,5 @@
 import React from 'react';
-import {Header, GamesLayout, Games, ProvidersMenu, MainPage, Footer} from "./components/";
+import {Header, MainPage, Footer} from "./components/";
 import {Provider} from "react-redux";
 import store from "./store";
 
@@ -12,8 +12,6 @@ function App() {
                 <div className='container'>
                     <Header/>
                     <MainPage/>
-                    {/*<GamesLayout/>*/}
-                    {/*<Games/>*/}
                     <Footer/>
                 </div>
             </div>

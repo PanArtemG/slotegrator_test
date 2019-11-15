@@ -1,7 +1,7 @@
 .credits {
     position: absolute;
     left: 195px;
-    bottom: 5px;
+    bottom: 185px;
     min-width: 185px;
     z-index: 2;
 }
@@ -18,7 +18,6 @@
 .credits__balance {
     display: block;
     color: #bce3ed;
-    /*font-family: "Azoft";*/
     font-size: 17px;
     font-weight: 700;
     text-align: right;
@@ -27,7 +26,6 @@
 
 .credits__points {
     display: block;
-    /*font-family: "Azoft";*/
     font-size: 38px;
     font-weight: bold;
     text-align: center;

@@ -9,22 +9,29 @@ const mapStateToProps = state => ({
     library_games: state.games.library_games
 });
 
+
 export const Games = connect(mapStateToProps, {getLibraryGames})(props => {
-    const {getLibraryGames, library_games, gameList = true } = props;
-console.log(library_games)
+    const {getLibraryGames, library_games} = props;
+
     useEffect(() => {
         getLibraryGames()
     }, [getLibraryGames]);
 
     return (
         <div className='games'>
-            { library_games
+
+            {library_games
                 ?
-                library_games.map(game => {
-                    return (
-                        gameList ? <GameDefault game={game}/> : <GamesLayout game={game}/>
-                    )
-                })
+                <React.Fragment>
+                    {
+                        library_games.map(game => {
+                            return (
+                                <GamesLayout game={game}/>
+
+                            )
+                        })
+                    }
+                </React.Fragment>
                 : <h1>Games loading...</h1>
 
             }
