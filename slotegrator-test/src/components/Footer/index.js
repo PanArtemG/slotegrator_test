@@ -6,7 +6,7 @@ export const Footer = () => {
     return (
         <footer className="footer">
             <div data-credit-button="">
-                <a href="#" className="button button--sp2">1 Credit =0.01 EUR </a>
+                <a href="/#" className="button button--sp2">1 Credit =0.01 EUR </a>
             </div>
             <div className="footer__jackpot">
                 <span className="footer__jackpot--gold">1 000 000 $</span>

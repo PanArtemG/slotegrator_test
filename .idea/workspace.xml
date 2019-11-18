@@ -3,31 +3,12 @@
   <component name="ChangeListManager">
     <list default="true" id="e09f32a7-978d-4039-8a06-a705a89a5440" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/database/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/database/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/server/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/server/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/server.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/server.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/slotegrator-test/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/slotegrator-test/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/slotegrator-test/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/slotegrator-test/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/slotegrator-test/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/slotegrator-test/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/slotegrator-test/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/slotegrator-test/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/slotegrator-test/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/slotegrator-test/public/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/slotegrator-test/public/manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/slotegrator-test/public/manifest.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/slotegrator-test/public/robots.txt" beforeDir="false" afterPath="$PROJECT_DIR$/slotegrator-test/public/robots.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/slotegrator-test/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/slotegrator-test/src/App.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/slotegrator-test/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/slotegrator-test/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/slotegrator-test/src/App.test.js" beforeDir="false" afterPath="$PROJECT_DIR$/slotegrator-test/src/App.test.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/slotegrator-test/src/components/Currency/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/slotegrator-test/src/components/Currency/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/slotegrator-test/src/components/Header/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/slotegrator-test/src/components/Header/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/slotegrator-test/src/components/MainPage/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/slotegrator-test/src/components/MainPage/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/slotegrator-test/src/components/MainPage/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/slotegrator-test/src/components/MainPage/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/slotegrator-test/src/components/ProvidersMenu/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/slotegrator-test/src/components/ProvidersMenu/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/slotegrator-test/src/components/ProvidersMenu/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/slotegrator-test/src/components/ProvidersMenu/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/slotegrator-test/src/components/Search/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/slotegrator-test/src/components/Search/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/slotegrator-test/src/components/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/slotegrator-test/src/components/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/slotegrator-test/src/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/slotegrator-test/src/index.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/slotegrator-test/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/slotegrator-test/src/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/slotegrator-test/src/serviceWorker.js" beforeDir="false" afterPath="$PROJECT_DIR$/slotegrator-test/src/serviceWorker.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/slotegrator-test/src/components/Footer/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/slotegrator-test/src/components/Footer/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/slotegrator-test/src/components/HeaderOptions/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/slotegrator-test/src/components/HeaderOptions/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/slotegrator-test/src/constants/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/slotegrator-test/src/constants/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/slotegrator-test/src/reducers/actions/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/slotegrator-test/src/reducers/actions/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/slotegrator-test/src/reducers/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/slotegrator-test/src/reducers/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/slotegrator-test/src/saga/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/slotegrator-test/src/saga/index.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -97,7 +78,7 @@
       <option name="presentableId" value="Default" />
       <updated>1573559789216</updated>
       <workItem from="1573559791767" duration="11446000" />
-      <workItem from="1574085285441" duration="1096000" />
+      <workItem from="1574085285441" duration="2102000" />
     </task>
     <servers />
   </component>

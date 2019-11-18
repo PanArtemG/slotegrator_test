@@ -6,13 +6,13 @@ export const HeaderOptions = () => {
     return (
         <div className='header-options'>
             <div >
-                <a className='header-options-icon icon-search' href="#"></a>
+                <a className='header-options-icon icon-search' href="/#"/>
             </div>
             <div >
-                <a className='header-options-icon icon-sound' href="#"></a>
+                <a className='header-options-icon icon-sound' href="/#"/>
             </div>
             <div >
-                <a className='header-options-icon icon-fullscreen' href="#"></a>
+                <a className='header-options-icon icon-fullscreen' href="/#"/>
             </div>
         </div>
     )

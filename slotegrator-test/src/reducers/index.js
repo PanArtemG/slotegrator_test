@@ -20,11 +20,6 @@ const libraryGamesReducer = (state = initialState, action) => {
                     ...state,
                     search_result: payload
                 };
-            case ACTION.SET_GAMES_CATEGORY:
-                return {
-                    ...state,
-                    game_category: payload
-                };
             default:
                 return {...state}
         }
