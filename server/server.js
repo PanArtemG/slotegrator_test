@@ -2,7 +2,7 @@ const express = require ('express');
 const app = express();
 const libraryGames = require ('./routes');
 
-const port = 3002;
+const port = 3001;
 
 const connectDb = require ('./database');
 

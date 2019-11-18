@@ -1,0 +1,10 @@
+.slider-wrap {
+    width: 80%;
+    padding-bottom: 30px;
+}
+
+.games__item__img {
+    width: 100px;
+    border: 1px solid #d8c391;
+    border-radius: 5px
+}

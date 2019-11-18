@@ -1,9 +1,8 @@
 .providers {
     display: flex;
     justify-content: center;
-    flex: 0 1 90px;
     position: relative;
-    margin-bottom: 50px;
+    margin-bottom: 35px;
     padding-top: 60px;
 }
 

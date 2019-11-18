@@ -14,8 +14,6 @@ export const searchResultSave = (games_library, inputValue, saveResultToStore) =
     return (
         inputValue
             ? saveResultToStore(games_library.filter(item => item.name.toLowerCase().indexOf(inputValue) > -1)   )
-            ||
-            (saveResultToStore(games_library.filter(item => item.type.toLowerCase().indexOf(inputValue) > -1)))
             : saveResultToStore(null)
     )
 };

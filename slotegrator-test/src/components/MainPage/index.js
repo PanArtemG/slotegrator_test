@@ -1,10 +1,8 @@
 import React, {useEffect} from 'react';
-
 import {connect} from 'react-redux';
 import {getLibraryGames, searchResult} from "../../reducers/actions";
-import {GameDefault, GamesLayout} from "../";
+import {GamesList, GamesSlider} from "../";
 import {ProvidersMenu, Currency} from "../";
-
 
 import './style.css'
 
@@ -14,20 +12,17 @@ const mapStateToProps = state => ({
 });
 
 export const MainPage = connect(mapStateToProps, {getLibraryGames, searchResult})(props => {
-    const {library_games, search_result, getLibraryGames, searchResult} = props;
+    const {library_games, search_result, getLibraryGames} = props;
 
     useEffect(() => {
         getLibraryGames()
     }, [getLibraryGames]);
 
-
     return (
         <main className='main-content'>
-        {console.log('ewe')}
-            <div className="games">
-                <GameDefault game_library={search_result ? search_result : library_games}/>
-            </div>
-            <ProvidersMenu library_games={library_games} searchResult={searchResult} />
+            <GamesSlider library_games={library_games}/>
+            <GamesList games={search_result ? search_result : library_games}/>
+            <ProvidersMenu/>
             <Currency/>
         </main>
     )

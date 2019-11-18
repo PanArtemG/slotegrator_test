@@ -1,7 +1,7 @@
 .credits {
     position: absolute;
-    left: 195px;
-    bottom: 185px;
+    left: -34px;
+    bottom: 5px;
     min-width: 185px;
     z-index: 2;
 }
@@ -9,7 +9,6 @@
 .credits__header {
     text-align: center;
     color: #ededed;
-    /*font-family: "ArchivoBlack";*/
     font-size: 19px;
     line-height: 17px;
     margin-bottom: 5px;
